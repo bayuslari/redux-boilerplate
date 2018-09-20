@@ -1,11 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { Font } from 'expo';
 import Layout from './src/index';
 
 export default class App extends React.Component {
   render() {
     return (
-      <Layout />
+      <View style={{ flex: 1 }}>
+        <Layout />
+      </View>
+
     );
   }
 }
